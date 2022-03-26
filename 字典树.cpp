@@ -1,6 +1,6 @@
 class Tries {
 private:
-    bool flag;
+    bool flag = false;
     Tries* next[26] = {nullptr};
 public:
     Tries {};
